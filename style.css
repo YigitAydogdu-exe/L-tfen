@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.overlay-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  color: rgba(255, 255, 255, 0.85);
+
+  text-shadow:
+    0 0 6px rgba(255, 100, 180, 0.6),
+    0 0 12px rgba(100, 180, 255, 0.4);
+
+  pointer-events: none;
+  user-select: none;
+}
