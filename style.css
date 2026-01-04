@@ -31,3 +31,10 @@ canvas {
   pointer-events: none;
   user-select: none;
 }
+@media (max-width: 600px) {
+  .overlay-text {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+}
+
